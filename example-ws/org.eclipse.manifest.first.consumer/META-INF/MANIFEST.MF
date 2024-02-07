@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Consumer
+Bundle-SymbolicName: org.eclipse.manifest.first.consumer
+Bundle-Version: 1.0.0.qualifier
+Import-Package: org.osgi.util.promise
+Require-Bundle: org.eclipse.manifest.first.api,
+ org.osgi.util.function;bundle-version="1.2.0"
+Service-Component: OSGI-INF/org.eclipse.manifest.first.consumer.TestConsumer.xml
+Automatic-Module-Name: org.eclipse.manifest.first.consumer
+Bundle-ActivationPolicy: lazy
+Bundle-RequiredExecutionEnvironment: JavaSE-17

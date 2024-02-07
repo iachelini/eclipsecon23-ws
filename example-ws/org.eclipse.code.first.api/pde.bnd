@@ -1,0 +1,3 @@
+-buildpath:\
+	org.osgi.util.promise,\
+	org.osgi.util.function

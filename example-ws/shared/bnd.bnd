@@ -1,0 +1,24 @@
+Bundle-License: Eclipse Public License 2.0
+Bundle-Copyright: Data In Motion Consuling GmbH - All rights reserved
+Bundle-Vendor: Data In Motion Consuling GmbH
+Bundle-ContactAddress: info@datainmotion.com
+Bundle-Developers: \
+    jalbert; \
+        email="j.albert@datainmotion.com"; \
+        name="Juergen Albert"; \
+        organization="Data In Motion"; \
+        organizationUrl="https://www.datainmotion.com"; \
+        roles="architect,developer"
+        
+-pom: true
+
+-groupid: some.test
+
+-removeheaders:\
+	Bnd-LastModified,\
+	Originally-Created-By,\
+	Created-By
+	
+-includeresource.about: about.html=${.}/about.html
+
+-jpms-module-info: org.eclipse.code.first.*

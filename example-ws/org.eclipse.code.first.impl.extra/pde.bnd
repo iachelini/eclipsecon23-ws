@@ -1,0 +1,9 @@
+-include: ${.}/../shared/bnd.bnd
+
+-buildpath:\
+	org.eclipse.code.first.api,\
+	org.osgi.util.promise,\
+	org.osgi.util.function,\
+	org.eclipse.osgi,\
+	org.osgi.service.cm
+	
